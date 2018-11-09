@@ -1,6 +1,4 @@
-package com.contactsupdate.user.exception;
-
-import com.contactsupdate.exception.NotFoundException;
+package com.contactsupdate.exception;
 
 public class InvalidUserException extends NotFoundException {
 

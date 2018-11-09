@@ -8,4 +8,8 @@ public interface CUserRepository extends MongoRepository<CUser, Integer>{
 
 	CUser findByUsername(String username);
 
+	boolean existsByUsername(String username);
+
+	boolean existsByEmail(String email);
+
 }
